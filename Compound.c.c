@@ -22,11 +22,10 @@ printf ("Enter the principal amount=");
  printf ("Enter the number of times interest is compounded =");
  scanf ("%d",&n);
  
- //A=P*pow((1+R/100),N);
  CI= P * pow((1+(R /(n * 100))), n * t);
  
  printf ("\nCompound Interest=%.2f",CI);
-// printf ("\nTotal Amount = %.2f",A);
+
  
 
     return 0;
